@@ -13,7 +13,16 @@ class Products
     public $instock;
     public $img;
 
-    function __construct(string $name, string $description, float $price, bool $instock = false, $img = 'https://picsum.photos/300')
+
+    /**
+     * Product Constructor
+     * @param String $name
+     * @param String description
+     * @param float $price
+     * @param boolean $instock
+     * @param string $img
+     */
+    function __construct(string $name, string $description, float $price, bool $instock = false, string $img = 'https://picsum.photos/300')
     {
         $this->name = $name;
         $this->description = $description;

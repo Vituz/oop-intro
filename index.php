@@ -34,6 +34,7 @@ $products = [
             background-color: white;
             color: black;
             margin: 0.5rem;
+            padding: 0.5rem;
         }
 
         body {
